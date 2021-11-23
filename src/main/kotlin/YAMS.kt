@@ -72,7 +72,7 @@ class YAMS {
         }
     }
 
-    fun zipFiles(zipFileName: String, files: Array<File>){
+    private fun zipFiles(zipFileName: String, files: Array<File>){
         val fileOutputStream = FileOutputStream(zipFileName)
         val zipFile = ZipOutputStream(fileOutputStream)
 

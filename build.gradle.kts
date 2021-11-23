@@ -4,10 +4,11 @@ plugins {
     kotlin("jvm") version "1.5.10"
     application
 }
-
+// needed so ./gradlew run works
 application {
     mainClass.set("MainKt")
 }
+
 group = "me.shahriyarshawon"
 version = "1.0-SNAPSHOT"
 
